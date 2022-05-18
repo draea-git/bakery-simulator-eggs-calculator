@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bakery Simulator - Calculator eggs</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<header>
+			<h1>Bakery Simulator - Calculator eggs </h1>
+		</header>
+		<article class="container">
+			<div>
+				<p>Un grand oeuf : <span class="vert">60</span> ml</p>
+				<p>Un petit oeuf : <span class="vert">45</span> ml</p>
+			</div>
+			<div>
+				<h2>Volume d'oeufs demandé :</h2>
+				<input type="number" name="quantite" id="quantite">
+				<div class="buttons">
+					<div id="btnRefresh" class="btn refresh">Refresh</div>
+					<div id="btnCalcul" class="btn calcul">Calcul</div>
+				</div>
+			</div>
+			<div>
+				<p><span id="big"></span> x 60 ml<span class="and">&nbsp;&nbsp;+&nbsp;&nbsp;</span><span id="small"></span> x 45 ml</p>
+			</div>
+		</article>
+		<footer>
+			<p>Crédits photo : Photo by <a href="https://unsplash.com/@theshubhamdhage" target="_blank">Shubham Dhage</a> on <a href="https://unsplash.com/s/photos/eggs" target="_blank">Unsplash</a></p>
+		</footer>
+	<script src="app.js" defer></script>
+</body>
+</html>
